@@ -2,8 +2,6 @@
 function listadoProductos(){
     let cantidad = 0;
     let precio = 0
-    let confirmacion = '';
-    let tarjeta = 0;
     let listado = Number(prompt('Elija el producto que desea comprar: \n1) Lampara Prisma - $8400 c/u \n2) Lampara Media Esfera Cerrada - $5750 c/u \n3) Lampara Media Esfera Abierta - $5250 c/u \n4) Lampara Tripode - $5300 c/u \n5) Lampara Cubo Blanca/Negra - $6400 c/u '))
 
     switch(listado){
